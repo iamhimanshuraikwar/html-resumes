@@ -19,21 +19,21 @@
     --doc-text-muted:     #6B7280;
     --doc-rule:           #1A1A1A;
     --doc-link:           #1A1A1A;
-    --doc-pad-x:          11mm;
-    --doc-pad-top:        9mm;
-    --doc-pad-bottom:     6mm;
+    --doc-pad-x:          10mm;
+    --doc-pad-top:        8mm;
+    --doc-pad-bottom:     5mm;
 
     --ff-body:            'Inter', sans-serif;
 
-    --fs-name:            20.5pt;
-    --fs-role:            12.5pt;
-    --fs-contact:         9pt;
-    --fs-section:         10.5pt;
-    --fs-body:            9.2pt;
-    --lh-body:            1.3;
-    --fs-entry-title:     9.9pt;
-    --fs-entry-meta:      9.2pt;
-    --fs-footer:          8.25pt;
+    --fs-name:            20pt;
+    --fs-role:            11.5pt;
+    --fs-contact:         8.5pt;
+    --fs-section:         10pt;
+    --fs-body:            8.8pt;
+    --lh-body:            1.25;
+    --fs-entry-title:     9.5pt;
+    --fs-entry-meta:      8.8pt;
+    --fs-footer:          8pt;
   }
 
   html, body {
@@ -79,7 +79,7 @@
   .doc-header {
     flex-shrink: 0;
     text-align: left;
-    margin-bottom: 3.8mm;
+    margin-bottom: 3mm;
   }
 
   .doc-header__name {
@@ -98,7 +98,7 @@
   }
 
   .doc-header__contact {
-    margin-top: 2.6mm;
+    margin-top: 2mm;
     font-size: var(--fs-contact);
     color: var(--doc-text);
     display: flex;
@@ -122,7 +122,7 @@
     overflow: hidden;
   }
 
-  .section { margin-bottom: 3.6mm; }
+  .section { margin-bottom: 2.8mm; }
   .section:last-child { margin-bottom: 0; }
 
   .section__title {
@@ -131,16 +131,16 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--doc-text-strong);
-    padding-bottom: 1.2mm;
+    padding-bottom: 1mm;
     border-bottom: 1.5px solid var(--doc-rule);
-    margin-bottom: 2.2mm;
+    margin-bottom: 1.8mm;
   }
 
   .section p { text-align: left; }
 
   /* ---------- Entries ---------- */
 
-  .entry { margin-bottom: 2.8mm; page-break-inside: avoid; break-inside: avoid; }
+  .entry { margin-bottom: 2.2mm; page-break-inside: avoid; break-inside: avoid; }
   .entry:last-child { margin-bottom: 0; }
 
   .entry__row {
@@ -176,7 +176,7 @@
   }
 
   .entry li {
-    margin-bottom: 0.8mm;
+    margin-bottom: 0.6mm;
     text-align: left;
     padding-left: 0.5mm;
   }
@@ -192,7 +192,7 @@
 
   /* ---------- Skills ---------- */
 
-  .skills p { margin-bottom: 0.8mm; text-align: left; }
+  .skills p { margin-bottom: 0.5mm; text-align: left; }
   .skills p:last-child { margin-bottom: 0; }
 
   /* ---------- Footer ---------- */
